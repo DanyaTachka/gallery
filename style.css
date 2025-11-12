@@ -10,8 +10,7 @@ body {
 
 .header{
 
-    background-color: #005eff;
-    background-image:linear-gradient(to top, #ff0000,#44ff00,#0066da);
+   background-image:linear-gradient(to top, #FF512F,#F09819,#FF512F)  ;
     
 }
 .menu{
@@ -43,10 +42,10 @@ body {
     font-weight: 700;
 }
 
-gallery{
+.gallery{
   background-color: beige;
   padding-top: 40px;
-  padding-left: 40px;
+  padding-bottom: 40px;
   background-image:linear-gradient(to top, #ff0000,#38ef00,#001aff);
 }
 
@@ -65,7 +64,6 @@ gallery{
  .btn-container {
       display: flex;
       justify-content: center;
-      margin: 20px;
       padding: 20px;
     }
     .btn {
@@ -73,8 +71,9 @@ gallery{
       padding: 10px 20px;
       font-size: 18px;
       border-radius: 8px;
+      cursor: pointer;
     }
-    .button:hover {
+    .btn:hover {
     background: #ffdb4d;   
     color: #000;   
     font-weight: 700;
